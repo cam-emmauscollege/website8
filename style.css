@@ -84,7 +84,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
+    color: rgb(202, 162, 255);
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: #bfcee4;
     overflow: hidden;
 }
 
@@ -116,9 +116,9 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #b8d7f5;
 }
 
 nav li a.active {
-    background-color: skyblue;
+    background-color: rgb(135, 177, 219);
 }
