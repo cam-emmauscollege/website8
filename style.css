@@ -20,8 +20,8 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #ffffff;               /* tekstkleur donkergrijs */
+  background-color: #858585;    /* achtergrondkleur lichtgrijs */
+  color: #000000;               /* tekstkleur zwart */
 }  
 
 div {                             /* geldt voor div */
@@ -109,7 +109,7 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -124,8 +124,25 @@ nav li a.active {
 }
 
 
-#achtergrond {
+#achtergrond1 {
   background-image: url("afbeeldingen/otter\ achtergrond.jpeg");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.middleBlock{
+  background-color: #b8d7f5;
+  opacity:0.5;
+  height: 1100px;
+  width: 800px;
+  margin: 10px;
+
+}
+
+#achtergrond2{
+  background-image: url("afbeeldingen/sloot1.jpeg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
