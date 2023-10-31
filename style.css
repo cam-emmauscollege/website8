@@ -75,7 +75,8 @@ img {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: rgb(18, 68, 87);
+     
 }
 
 .smalltext {
@@ -99,12 +100,14 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #bfcee4;
+    background-color: #16396f;
     overflow: hidden;
 }
 
 nav ul li {
     float: left;
+    width: 25%;
+    height: 40px;
 }
 
 nav li a {
@@ -116,16 +119,16 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #b8d7f5;
+    background-color: #577696;
 }
 
 nav li a.active {
-    background-color: rgb(135, 177, 219);
+    background-color: rgb(88, 109, 202);
 }
 
 
 #achtergrond1 {
-  background-image: url("afbeeldingen/otter\ achtergrond.jpeg");
+  background-image: url("afbeeldingen/otterbackround 1200.jpg");
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -133,11 +136,11 @@ nav li a.active {
 
 
 .middleBlock{
-  background-color: #b8d7f5;
-  opacity:0.5;
-  height: 1100px;
-  width: 800px;
-  margin: 10px;
+  background-color: rgba(247, 254, 255, 0.611);
+  height: 1200px;
+  width: 700px;
+  padding: 10px 10px;
+  margin: 0px;
 
 }
 
@@ -146,4 +149,10 @@ nav li a.active {
   background-position: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.item-plaatje{
+  float: left;
+  width: 175px;
+  padding-right: 15px;
 }
