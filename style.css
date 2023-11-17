@@ -20,7 +20,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #858585;    /* achtergrondkleur lichtgrijs */
+  background-color: #85858500;    /* achtergrondkleur lichtgrijs */
   color: #000000;               /* tekstkleur zwart */
 }  
 
@@ -35,16 +35,18 @@ div {                             /* geldt voor div */
   margin: 10px auto;              /* boven en onder 10 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
 }
 
-header, footer {                  /* geldt voor header en footer */
+header, footer {                
   margin: 10px 0px;
+  color:#0f0f36;
 }
 
 main {                       
-  text-align: justify;            /* tekst uitvullen */}
+  text-align: justify;            /* tekst uitvullen */
+}
 
-h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
+h1, h2, h3 {                     
   margin: 10px 0px;
-  text-align: center;             /* tekst centreren */
+  text-align: center;             
 } 
 
 p {
@@ -61,9 +63,9 @@ img {
 /* .item {} */ /* hier doen we nog niks mee, dat mag je zelf toevoegen */
 
 .item-plaatje {
-  float:left;
-  width:250px;
-  padding-right: 15px; /* zorgt dat plaatje niet tegen tekst komt */
+  float:center;
+  width:680px;
+  
 }
 .item-tekst {
   float:right;
@@ -74,9 +76,8 @@ img {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: rgb(18, 68, 87);
-     
+ h1, h2, h3 {
+      color:rgb(19, 116, 131);     
 }
 
 .smalltext {
@@ -155,4 +156,20 @@ nav li a.active {
   float: left;
   width: 175px;
   padding-right: 15px;
+}
+
+#achtergrond3{
+  background-image: url("afbeeldingen/fish.avif");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* op sommige schermen bedekt het plaatje niet de hele achtergrond, dat komt omdat de body dan te klein is. Dat heb ik opgelost met min-height 100% op body en html */
+}
+
+body {
+  min-height: 100%;
+}
+
+html {
+  min-height: 100%;
 }
