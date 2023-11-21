@@ -173,3 +173,10 @@ body {
 html {
   min-height: 100%;
 }
+
+#achtergrond4{
+  background-image: url("afbeeldingen/behang.avif");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
