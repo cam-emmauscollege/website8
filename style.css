@@ -77,7 +77,7 @@ img {
 /* Opmaak voor alle pagina's */
 
  h1, h2, h3 {
-      color:rgb(19, 116, 131);     
+      color:rgb(0, 0, 0);     
 }
 
 .smalltext {
@@ -142,7 +142,6 @@ nav li a.active {
   width: 700px;
   padding: 10px 10px;
   margin: 0px;
-
 }
 
 #achtergrond2{
